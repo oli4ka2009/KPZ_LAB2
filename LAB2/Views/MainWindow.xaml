@@ -1,0 +1,17 @@
+﻿<Window x:Class="LAB2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:LAB2" xmlns:view="clr-namespace:LAB2.Views"
+        xmlns:c="clr-namespace:LAB2"
+
+        Title="MainWindow" Height="500" Width="800">
+    <TabControl>
+        <TabItem Header="Client" Background="#fefffa">
+            <view:ClientUserControl/>
+        </TabItem>
+        <TabItem Header="Policy" Background="#fefffa">
+            <view:PolicyUserControl/>
+        </TabItem>
+    </TabControl>
+</Window>
